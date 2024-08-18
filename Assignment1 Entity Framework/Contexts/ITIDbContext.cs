@@ -16,7 +16,7 @@ namespace Assignment1_Entity_Framework.Contexts
         public DbSet<Instructor> Instructors { get; set; }
         public DbSet<Topic> Topics { get; set; }
         public DbSet<StudCourse> StudCourses { get; set; }
-        public DbSet<CourseInst> CourseInsts { get; set; }
+        public DbSet<CourseInst> CourseInsts { get; set; } 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             //optionsBuilder.UseSqlServer("Data Source = DESKTOP-4J5GA96 ; Initial Catalog = ITI_EF ; Integrated Security = True");
